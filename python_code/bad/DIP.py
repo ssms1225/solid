@@ -5,7 +5,7 @@ class Worker(object):
 
     def work(self):
         print ("I work very hard!!!")
-
+#
 
 class Manager(object):
 
