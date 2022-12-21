@@ -30,8 +30,8 @@ class SuperWorker(AbstractWorker):
         print ("I'm super worker. I work very hard!")
 
     def eat(self):
-        print ("Lunch break....(3 secs)")
-        time.sleep(3)
+        print ("Lunch break....(5 secs)")
+        time.sleep(5)
 
 
 class Manager(object):
